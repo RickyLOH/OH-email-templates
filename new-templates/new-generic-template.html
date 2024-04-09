@@ -7,7 +7,7 @@
     <!-- FONTS -->
     <link href="https://fonts.googleapis.com/css2?family=Hepta+Slab:wght@1..900&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Public+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-    <title>Alopecia 1</title>
+    <title>Generic Template</title>
 
     <style>
       .title {
@@ -36,6 +36,10 @@
         padding: 30px 30px 0 30px;
       }
 
+      .smallText {
+        width: 40%;
+      }
+
       td {
         padding: 0;
       }
@@ -54,6 +58,10 @@
         }
 
         .narrowCol {
+          width: 60%;
+        }
+
+        .smallText {
           width: 70%;
         }
       }
@@ -86,10 +94,31 @@
 
             <tr>
               <td>
-                <img
-                  width="100%"
-                  src="https://omni-public-media.s3.us-west-2.amazonaws.com/email/premierclinicalresearch/pcr_oh_emailbanner.png"
-                />
+                <table
+                  style="
+                    table-layout: fixed;
+                    width: 100%;
+                    padding: 20px 0;
+                  "
+                >
+                  <tr>
+                    <td>
+                      <img src="https://omni-public-media.s3.us-west-2.amazonaws.com/branding/omniscia/onboardBanner.png" width="80%">
+                    </td>
+
+                    <td>
+                      <div
+                        style="
+                          font-size: 10px;
+                          color: #24427C;
+                          text-align: end;
+                        "
+                      >
+                        Trial Opportunities
+                      </div>
+                    </td>
+                  </tr>
+                </table>
               </td>
             </tr>
 
@@ -104,7 +133,8 @@
 
                   <tr>
                     <td class="paddingContainer">
-                      We are Premier Clinical Research, a Spokane based Medical Research facility specializing in Phase II, III, and IV research studies.
+                      Our team is currently looking for participants in a clinical trial for the treatment of
+                      <strong>memory loss in early stages of Alzheimer's disease.</strong>
                     </td>
                   </tr>
 
@@ -124,41 +154,45 @@
                         class="paddingContainer"
                       >
                         <tr style="vertical-align: top;">
+
                           <td style="padding-right: 5px;">
-                            We are working with Omniscia Health to recruit participants for a clinical
-                            trial treating Androgenic Alopecia, also known as
-                            <strong>Male Pattern Baldness.</strong>
+                            If you or a loved one
+                            <strong>has memory issues that have progressively gotten worse over time</strong>
+                            , you may qualify for this trial.
                           </td>
 
                           <td style="padding-left: 5px;">
                             <table style="border-spacing: 0;">
                               <tr>
                                 <td>
-                                  If you or a loved one is a <strong>over the age of 18 experiencing hair
-                                  loss or thinning</strong>, this study might be for you!
+                                  Check eligibility with our 5-10 minutes pre-screening process.
                                 </td>
                               </tr>
 
                               <tr>
                                 <td style="padding-top: 20px;">
-                                  <a
-                                    href="www.google.com"
-                                    style="text-decoration: none;"
-                                  >
-                                    <div
-                                      style="
-                                        background-color: #24427C;
-                                        border-radius: 5px;
-                                        padding: 10px;
-                                        text-align: center;
-                                        color: #fff;
-                                        text-decoration: none;
-                                        font-size: 14px;
-                                      "
-                                    >
-                                      See if you qualify!
+                                  <div align="center">
+                                    <div style="width: 60%;">
+                                      <a
+                                        href="www.google.com"
+                                        style="text-decoration: none;"
+                                      >
+                                        <div
+                                          style="
+                                            background-color: #24427C;
+                                            border-radius: 5px;
+                                            padding: 10px;
+                                            text-align: center;
+                                            color: #fff;
+                                            text-decoration: none;
+                                            font-size: 14px;
+                                          "
+                                        >
+                                          Get Started
+                                        </div>
+                                      </a>
                                     </div>
-                                  </a>
+                                  </div>
                                 </td>
                               </tr>
                             </table>
@@ -175,8 +209,8 @@
                   </tr>
 
                   <tr>
-                    <td class="title paddingTitle">
-                      Benefits of Participation
+                    <td class="title paddingTitle" style="text-align: center;">
+                      When you enroll, you gain...
                     </td>
                   </tr>
 
@@ -193,8 +227,8 @@
                           <td style="padding-right: 10px;">
                             <div align="center">
                               <div class="narrowCol">
-                                <div><img src="./Books.svg"></div>
-                                You will have access to our medical research staff during the study.
+                                <div><img src="./Umbrella.svg"></div>
+                                Company funds for the studies. No insurance required.
                               </div>
                             </div>
                           </td>
@@ -202,7 +236,7 @@
                             <div align="center">
                               <div class="narrowCol">
                                 <div><img src="./Price.svg"></div>
-                                You may be compensated for your time and travel while participating.
+                                Compensation for your time and travel.*
                               </div>
                             </div>
                           </td>
@@ -210,7 +244,7 @@
                             <div align="center">
                               <div class="narrowCol">
                                 <div><img src="./Books.svg"></div>
-                                Insurance is not needed as the pharmaceutical company fund the research studies.
+                                Access to our research staff during the study.
                               </div>
                             </div>
                           </td>
@@ -238,9 +272,12 @@
             </tr>
 
             <tr style="color: #24427C; font-size: 10px; line-height: 14px; text-align: center;">
-              <td style="padding-top: 20px;">
-                <div style="font-size: 12px; padding-bottom: 8px; font-weight: 700;">
-                  Premier Clinical research
+              <td style="padding-top: 20px;" align="center">
+                <div style="font-size: 12px; font-weight: 700;">
+                  Omniscia Health
+                </div>
+                <div style="font-size: 8px; padding-bottom: 8px;" class="smallText">
+                  a Spokane-based Medical Research facility specializing in Phase II, III, and IV research studies.
                 </div>
                 <div>Spokane, WA 99202</div>
                 <div>Suite A2,</div>
@@ -266,6 +303,11 @@
                     <table>
                       <tr>
                         <td>
+                          *Terms and conditions apply.
+                        </td>
+                      </tr>
+                      <tr>
+                        <td style="padding-top: 10px;">
                           You are receiving these emails because you have used Omniscia
                           Heatlh's Clinical Trials services before.
                         </td>
