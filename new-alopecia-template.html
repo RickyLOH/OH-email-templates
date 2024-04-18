@@ -1,342 +1,375 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- FONTS -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Hepta+Slab:wght@1..900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Public+Sans:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <title>Alopecia 1</title>
 
-  <!-- FONTS -->
-  <link href="https://fonts.googleapis.com/css2?family=Hepta+Slab:wght@1..900&display=swap" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css2?family=Public+Sans:ital,wght@0,100..900;1,100..900&display=swap"
-    rel="stylesheet">
-  <title>Alopecia 1</title>
+    <style>
+      .title {
+        font-family: "Hepta Slab", serif;
+        color: #24427c;
+        font-size: 18px;
+        line-height: 20px;
+        padding: 30px 30px 0 30px;
+      }
 
-  <style>
-    .title {
-      font-family: 'Hepta Slab', serif;
-      color: #24427C;
-      font-size: 18px;
-      line-height: 20px;
-      padding: 30px 30px 0 30px;
-    }
+      .separator {
+        border: none;
+        background-color: #e0dfe0;
+        height: 1px;
+        margin: 0;
+      }
 
-    .separator {
-      border: none;
-      background-color: #E0DFE0;
-      height: 1px;
-      margin: 0;
-    }
+      .link {
+        color: #24427c;
+      }
 
-    .link {
-      color: #24427C;
-    }
+      .paddingContainer {
+        padding: 20px 30px;
+      }
 
-    .paddingContainer {
-      padding: 20px 30px;
-    }
-
-    .socialNetworks {
-      width: 16px;
-      height: 16px;
-      margin-left: 20px;
-      display: block;
-    }
-
-    td {
-      padding: 0;
-    }
-
-    table {
-      border-spacing: 0;
-      vertical-align: top;
-    }
-
-    @media (max-width: 600px) {
-      .paddingContainer td {
+      .socialNetworks {
+        width: 16px;
+        height: 16px;
+        margin-left: 20px;
         display: block;
-        width: 100%;
-        padding: 10px 0 !important;
-        text-align: left;
       }
 
-      .narrowCol {
-        width: 70%;
+      td {
+        padding: 0;
       }
-    }
-  </style>
-</head>
 
-<body
-  style="
-    background: #e5e4e5;
-    margin: 0px;
-    font-family: 'Public Sans', Arial, Helvetica sans-serif;
-  "
+      table {
+        border-spacing: 0;
+        vertical-align: top;
+      }
+
+      @media (max-width: 600px) {
+        .paddingContainer td {
+          display: block;
+          width: 100%;
+          padding: 10px 0 !important;
+          text-align: left;
+        }
+
+        .narrowCol {
+          width: 70%;
+        }
+      }
+    </style>
+  </head>
+
+  <body
+    style="
+      background: #e5e4e5;
+      margin: 0px;
+      font-family: 'Public Sans', Arial, Helvetica sans-serif;
+    "
   >
-  <table width="100%">
-    <tr>
-      <td align="center">
-        <table
-          style="
-            background: #fff;
-            padding: 30px;
-            max-width: 600px;
-          "
-        >
-          <tr>
-            <td style="text-align: end; font-size: 12px;">
-              If you can't see images,
-              <a class="link" href="www.google.com">click here</a>
-            </td>
-          </tr>
+    <table width="100%">
+      <tr>
+        <td align="center">
+          <table style="background: #fff; padding: 30px; max-width: 600px">
+            <tr>
+              <td style="text-align: end; font-size: 12px">
+                If you can't see images,
+                <a class="link" href="www.google.com">click here</a>
+              </td>
+            </tr>
 
-          <tr>
-            <td style="padding: 20px 0;">
-              <img width="100%"
-                src="./Header.png"
-            </td>
-          </tr>
+            <tr>
+              <td style="padding: 20px 0">
+                <img width="100%"
+                src="https://omni-public-media.s3.us-west-2.amazonaws.com/branding/omniscia/email/Header.png"
+              </td>
+            </tr>
 
-          <tr bgcolor="#E4EBF0" style="color: #24427C; font-size: 14px; line-height: 14px;">
-            <td style="border-radius: 5px;">
-              <table>
-                <tr>
-                  <td class="title">
-                    Greetings, {{Attributes.FirstName}}
-                  </td>
-                </tr>
+            <tr
+              bgcolor="#E4EBF0"
+              style="color: #24427c; font-size: 14px; line-height: 14px"
+            >
+              <td style="border-radius: 5px">
+                <table>
+                  <tr>
+                    <td class="title">Greetings, {{Attributes.FirstName}}</td>
+                  </tr>
 
-                <tr>
-                  <td class="paddingContainer">
-                    We are Premier Clinical Research, a Spokane based Medical Research facility specializing in Phase
-                    II, III, and IV research studies.
-                  </td>
-                </tr>
+                  <tr>
+                    <td class="paddingContainer">
+                      We are Premier Clinical Research, a Spokane based Medical
+                      Research facility specializing in Phase II, III, and IV
+                      research studies.
+                    </td>
+                  </tr>
 
-                <tr>
-                  <td>
-                    <hr class="separator" />
-                  </td>
-                </tr>
+                  <tr>
+                    <td>
+                      <hr class="separator" />
+                    </td>
+                  </tr>
 
-                <tr>
-                  <td>
-                    <table
-                      style="
-                        table-layout: fixed;
-                        width: 100%;
-                      "
-                      class="paddingContainer"
-                    >
-                      <tr style="vertical-align: top;">
-                        <td style="padding-right: 10px;">
-                          We are working with Omniscia Health to recruit participants for a clinical
-                          trial treating Androgenic Alopecia, also known as
-                          <strong>Male Pattern Baldness.</strong>
-                        </td>
+                  <tr>
+                    <td>
+                      <table
+                        style="table-layout: fixed; width: 100%"
+                        class="paddingContainer"
+                      >
+                        <tr style="vertical-align: top">
+                          <td style="padding-right: 10px">
+                            We are working with Omniscia Health to recruit
+                            participants for a clinical trial treating
+                            Androgenic Alopecia, also known as
+                            <strong>Male Pattern Baldness.</strong>
+                          </td>
 
-                        <td style="padding-left: 10px;">
-                          <table style="border-spacing: 0;">
-                            <tr>
-                              <td>
-                                If you or a loved one is a <strong>over the age of 18 experiencing hair
-                                  loss or thinning</strong>, this study might be for you!
-                              </td>
-                            </tr>
+                          <td style="padding-left: 10px">
+                            <table style="border-spacing: 0">
+                              <tr>
+                                <td>
+                                  If you or a loved one is a
+                                  <strong
+                                    >over the age of 18 experiencing hair loss
+                                    or thinning</strong
+                                  >, this study might be for you!
+                                </td>
+                              </tr>
 
-                            <tr>
-                              <td style="padding-top: 20px;">
-                                <div align="center">
-                                  <div style="width: fit-content;">
-                                    <a href="www.google.com" style="text-decoration: none;">
-                                      <div
-                                        style="
-                                          background-color: #24427C;
-                                          border-radius: 5px;
-                                          padding: 10px;
-                                          text-align: center;
-                                          color: #fff;
-                                          text-decoration: none;
-                                          font-size: 16px;
-                                        "
+                              <tr>
+                                <td style="padding-top: 20px">
+                                  <div align="center">
+                                    <div style="width: fit-content">
+                                      <a
+                                        href="www.google.com"
+                                        style="text-decoration: none"
                                       >
-                                        <span style="vertical-align: middle;">See if you qualify</span>
-                                        <img style="vertical-align: middle;" src="./Arrow.png">
-                                      </div>
-                                    </a>
+                                        <div
+                                          style="
+                                            background-color: #24427c;
+                                            border-radius: 5px;
+                                            padding: 10px;
+                                            text-align: center;
+                                            color: #fff;
+                                            text-decoration: none;
+                                            font-size: 16px;
+                                          "
+                                        >
+                                          <span style="vertical-align: middle"
+                                            >See if you qualify</span
+                                          >
+                                          <img
+                                            style="vertical-align: middle"
+                                            src="https://omni-public-media.s3.us-west-2.amazonaws.com/branding/omniscia/email/Arrow.png"
+                                          />
+                                        </div>
+                                      </a>
+                                    </div>
                                   </div>
+                                </td>
+                              </tr>
+                            </table>
+                          </td>
+                        </tr>
+                      </table>
+                    </td>
+                  </tr>
+
+                  <tr>
+                    <td>
+                      <hr class="separator" />
+                    </td>
+                  </tr>
+
+                  <tr>
+                    <td class="title" style="text-align: center">
+                      When you enroll, you gain...
+                    </td>
+                  </tr>
+
+                  <tr>
+                    <td>
+                      <table
+                        style="table-layout: fixed; width: 100%"
+                        class="paddingContainer"
+                      >
+                        <tr style="vertical-align: top">
+                          <td style="padding-right: 10px">
+                            <div align="center">
+                              <div class="narrowCol">
+                                <div>
+                                  <img
+                                    style="width: 35px"
+                                    src="https://omni-public-media.s3.us-west-2.amazonaws.com/branding/omniscia/email/Books.png"
+                                  />
                                 </div>
-                              </td>
-                            </tr>
-                          </table>
-                        </td>
-                      </tr>
-                    </table>
-                  </td>
-                </tr>
-
-                <tr>
-                  <td>
-                    <hr class="separator" />
-                  </td>
-                </tr>
-
-                <tr>
-                  <td class="title" style="text-align: center;">
-                    When you enroll, you gain...
-                  </td>
-                </tr>
-
-                <tr>
-                  <td>
-                    <table
-                      style="
-                        table-layout: fixed;
-                        width: 100%;
-                      "
-                      class="paddingContainer"
-                    >
-                      <tr style="vertical-align: top;">
-                        <td style="padding-right: 10px;">
-                          <div align="center">
-                            <div class="narrowCol">
-                              <div><img style="width: 35px;" src="./Books.png"></div>
-                              Access to our research staff during the study.
+                                Access to our research staff during the study.
+                              </div>
                             </div>
-                          </div>
-                        </td>
-                        <td style="padding-left: 5px; padding-right: 5px;">
-                          <div align="center">
-                            <div class="narrowCol">
-                              <div><img style="width: 35px;" src="./Price.png"></div>
-                              Compensation for your time and travel.*
+                          </td>
+                          <td style="padding-left: 5px; padding-right: 5px">
+                            <div align="center">
+                              <div class="narrowCol">
+                                <div>
+                                  <img
+                                    style="width: 35px"
+                                    src="https://omni-public-media.s3.us-west-2.amazonaws.com/branding/omniscia/email/Price.png"
+                                  />
+                                </div>
+                                Compensation for your time and travel.*
+                              </div>
                             </div>
-                          </div>
-                        </td>
-                        <td style="padding-left: 10px;">
-                          <div align="center">
-                            <div class="narrowCol">
-                              <div><img style="width: 35px;" src="./Umbrella.png"></div>
-                              No insurance required. Your study costs are covered.
+                          </td>
+                          <td style="padding-left: 10px">
+                            <div align="center">
+                              <div class="narrowCol">
+                                <div>
+                                  <img
+                                    style="width: 35px"
+                                    src="https://omni-public-media.s3.us-west-2.amazonaws.com/branding/omniscia/email/Umbrella.png"
+                                  />
+                                </div>
+                                No insurance required. Your study costs are
+                                covered.
+                              </div>
                             </div>
-                          </div>
-                        </td>
-                      </tr>
-                    </table>
-                  </td>
-                </tr>
+                          </td>
+                        </tr>
+                      </table>
+                    </td>
+                  </tr>
 
-                <tr>
-                  <td>
-                    <img style="width: 100%;" src="./Image.png" />
-                  </td>
-                </tr>
+                  <tr>
+                    <td>
+                      <img
+                        style="width: 100%"
+                        src="https://omni-public-media.s3.us-west-2.amazonaws.com/branding/omniscia/email/Image.png"
+                      />
+                    </td>
+                  </tr>
 
-                <tr>
-                  <td class="paddingContainer">
-                    <div style="text-align: center;">
-                      Let's make medicine better, <strong>together.</strong>
-                    </div>
-                  </td>
-                </tr>
-              </table>
-            </td>
-          </tr>
+                  <tr>
+                    <td class="paddingContainer">
+                      <div style="text-align: center">
+                        Let's make medicine better, <strong>together.</strong>
+                      </div>
+                    </td>
+                  </tr>
+                </table>
+              </td>
+            </tr>
 
-          <tr style="color: #24427C; font-size: 12px; line-height: 14px; text-align: center;">
-            <td style="padding-top: 20px;">
-              <div style="font-size: 14px; padding-bottom: 8px; font-weight: 700;">
-                Premier Clinical research
-              </div>
-              <div>Spokane, WA 99202</div>
-              <div>Suite A2,</div>
-              <div>Spokane, WA 99202</div>
-            </td>
-          </tr>
+            <tr
+              style="
+                color: #24427c;
+                font-size: 12px;
+                line-height: 14px;
+                text-align: center;
+              "
+            >
+              <td style="padding-top: 20px">
+                <div
+                  style="font-size: 14px; padding-bottom: 8px; font-weight: 700"
+                >
+                  Premier Clinical research
+                </div>
+                <div>Spokane, WA 99202</div>
+                <div>Suite A2,</div>
+                <div>Spokane, WA 99202</div>
+              </td>
+            </tr>
 
-          <tr>
-            <td style="padding-top: 10px;">
-              <table
-                align="center"
-                style="
-                  background-image: url('./Social.jpg');
-                  background-repeat: no-repeat;
-                  background-size: 100%;
-                "
-              >
-                <tr>
-                  <td>
-                    <a
-                      href="https://www.linkedin.com/company/premier-clinical-research-inc/about/"
-                      target="_blank"
-                      class="socialNetworks"
-                      style="margin-left: 0px;"
-                    ></a>
-                  </td>
+            <tr>
+              <td style="padding-top: 10px">
+                <table
+                  align="center"
+                  style="
+                    background-image: url('https://omni-public-media.s3.us-west-2.amazonaws.com/branding/omniscia/email/Social.jpg');
+                    background-repeat: no-repeat;
+                    background-size: 100%;
+                  "
+                >
+                  <tr>
+                    <td>
+                      <a
+                        href="https://www.linkedin.com/company/premier-clinical-research-inc/about/"
+                        target="_blank"
+                        class="socialNetworks"
+                        style="margin-left: 0px"
+                      ></a>
+                    </td>
 
-                  <td>
-                    <a
-                      href="https://www.instagram.com/premier_clinical_research/"
-                      target="_blank"
-                      class="socialNetworks"
-                    ></a>
-                  </td>
+                    <td>
+                      <a
+                        href="https://www.instagram.com/premier_clinical_research/"
+                        target="_blank"
+                        class="socialNetworks"
+                      ></a>
+                    </td>
 
-                  <td>
-                    <a
-                      href="https://www.facebook.com/PremierClinicalResearch/"
-                      target="_blank"
-                      class="socialNetworks"
-                    ></a>
-                  </td>
-                </tr>
-              </table>
-            </td>
-          </tr>
+                    <td>
+                      <a
+                        href="https://www.facebook.com/PremierClinicalResearch/"
+                        target="_blank"
+                        class="socialNetworks"
+                      ></a>
+                    </td>
+                  </tr>
+                </table>
+              </td>
+            </tr>
 
-          <tr>
-            <td>
-              <table
-                style="
-                  font-size: 12px;
-                  color: #2D2D2D;
-                  width: 100%;
-                  table-layout: fixed;
-                  text-align: end;
-                  padding-top: 35px;
-                "
-              >
-                <tr>
-                  <td></td>
-                  <td>
-                    <table>
-                      <tr>
-                        <td>
-                          *Terms and conditions apply.
-                        </td>
-                      </tr>
-                      <tr>
-                        <td style="padding-top: 10px;">
-                          You are receiving these emails because you have used Omniscia
-                          Heatlh's Clinical Trials services before.
-                        </td>
-                      </tr>
-                      <tr>
-                        <td style="padding-top: 10px;">
-                          Receiving too many emails?
-                          <a class="link" href="www.google.com">Unsubscribe</a>
-                        </td>
-                      </tr>
-                    </table>
-                  </td>
-                </tr>
-              </table>
-            </td>
-          </tr>
-        </table>
-      </td>
-    </tr>
-  </table>
-</body>
-
+            <tr>
+              <td>
+                <table
+                  style="
+                    font-size: 12px;
+                    color: #2d2d2d;
+                    width: 100%;
+                    table-layout: fixed;
+                    text-align: end;
+                    padding-top: 35px;
+                  "
+                >
+                  <tr>
+                    <td></td>
+                    <td>
+                      <table>
+                        <tr>
+                          <td>*Terms and conditions apply.</td>
+                        </tr>
+                        <tr>
+                          <td style="padding-top: 10px">
+                            You are receiving these emails because you have used
+                            Omniscia Heatlh's Clinical Trials services before.
+                          </td>
+                        </tr>
+                        <tr>
+                          <td style="padding-top: 10px">
+                            Receiving too many emails?
+                            <a class="link" href="www.google.com"
+                              >Unsubscribe</a
+                            >
+                          </td>
+                        </tr>
+                      </table>
+                    </td>
+                  </tr>
+                </table>
+              </td>
+            </tr>
+          </table>
+        </td>
+      </tr>
+    </table>
+  </body>
 </html>
